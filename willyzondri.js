@@ -14,25 +14,6 @@ loadCSS("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min
 //]]>
 //<![CDATA[
 
-//Fixed Header
-$(document).ready(function() {
-
-var  mn = $("#fixed-header");
-    mns = "sticky";
-    hdr = $('#fixed-header').height();
-
-$(window).scroll(function() {
-  if( $(this).scrollTop() > hdr ) {
-    mn.addClass(mns);
-      if (jQuery('#wpadminbar').length){
-        $('#fixed-header').addClass('awesome');
-      }
-  } else {
-    mn.removeClass(mns);
-  }
-});
-
-   });
 //]]>
 
 //<![CDATA[
